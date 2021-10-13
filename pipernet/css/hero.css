@@ -1,0 +1,35 @@
+.hero {
+    align-items: center;
+    background-color: #007765;
+    background-image: url(../images/hero-bg-green.png);
+    background-size: cover;
+    display: flex;
+    min-height: 400px;
+}
+
+.hero.is-blue {
+    background-color: #0e578e;
+    background-image: url(../images/hero-bg-blue.png);
+}
+
+.hero__container {
+    display: flex;
+    justify-content: center;
+}
+
+.hero__title {
+    color: #fff;
+    font-size: 72px;
+    margin: 0;
+    line-height: 1.2;
+}
+
+.hero__text {
+    color: #fff;
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 1.2;
+    margin: 0;
+    text-align: center;
+}

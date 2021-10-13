@@ -1,0 +1,27 @@
+.info {
+    padding: 48px 0 92px;
+}
+
+.info.is-gray {
+    background-color: #eeeeee;
+}
+
+.info__title {
+    color: #007765;
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 1.2;
+    margin: 0 0 16px;
+    text-align: center;
+}
+
+.info__text {
+    font-size: 32px;
+    line-height: 1.2;
+    margin: 0 0 40px;
+}
+
+.info__img {
+    float: left;
+    margin-right: 48px;
+}

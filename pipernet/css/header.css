@@ -1,0 +1,29 @@
+.header {
+    background-color: #007765;
+    padding: 20px 0;
+    position: sticky;
+    top: 0;
+}
+
+.header__container {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__link {
+    color: #fff;
+}
+
+.header__list {
+    display: flex;
+    list-style: none;
+}
+
+.header__list-item {
+    padding: 0 8px;
+}
+
+.header__list-item ~ .header__list-item {
+    border-left: 1px solid #fff;
+}
